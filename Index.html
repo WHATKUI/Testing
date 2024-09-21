@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Animasi Lingkaran Bergerak</title>
+    <script src="https://cdn.jsdelivr.net/npm/matplotlib@3.4.3/dist/matplotlib.min.js"></script>
+  </head>
+  <body>
+    <div id="animation"></div>
+    <script>
+      // Render animasi
+      matplotlib.render('animation', {{ fig|safe }});
+    </script>
+  </body>
+</html>
